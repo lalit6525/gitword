@@ -1,0 +1,189 @@
+/*
+Theme Name: 	   Chromax
+Text Domain: 	   chromax
+Version:            1.0.53
+Tested up to:       7.1
+Requires at least:  4.7
+Requires PHP:       5.6
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/chromax-free/
+Description:        Chromax is lightweight, highly extendable and multi-purpose WordPress Theme. Chromax is perfect for Startup, IT Solutions, IT Business, Agencies, Marketing, Consulting and Services Company related to any business websites. Chromax based on in-depth research into IT Solutions, IT Services, IT Business, Consulting & Software, Digital Solution, Technical Engineering, Technology, and Services Company, to deliver all needed layouts and blocks. It will enable you to create almost any type of website with a beautiful & professional design. Chromax supports popular WordPress plugins such as Elementor, WPML, Polylang, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, and much more. Chromax Pro demo https://preview.desertthemes.com/pro/chromax/
+Tags:               one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+a.wp-block-button__link:hover, 
+a.wp-block-button__link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wp-block-page-list.has-background {
+    padding: 1rem;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: var(--dt-main-color);
+}
+
+.wp-block-latest-comments {
+    padding-left: 0;
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.wp-block-latest-comments li a:not(:hover, :focus) {
+    color: var(--dt-secondary-color);
+}
+
+.wp-block-table figcaption {
+    text-align: center;
+}
+
+.wp-block-latest-comments li a {
+    text-decoration:none;
+}
+
+.wp-block-code.has-text-color code {
+    color: inherit;
+}
+
+.dt_footer ul.product_list_widget li .woocommerce-Price-amount {
+    color: #fff;
+}
+
+.dt_footer ul.product_list_widget li {
+    border-bottom: none;
+}
+
+.dt_footer .widget_shopping_cart .button:not(.checkout):not(.add_to_cart_button) {
+    background-color: var(--dt-main-color);
+}
+
+.dt_footer .widget_shopping_cart .button:not(.checkout):not(.add_to_cart_button):hover,
+.dt_footer .widget_shopping_cart .button:not(.checkout):not(.add_to_cart_button):focus {
+        background-color: var(--dt-main-color) !important;
+}
+
+.dt_footer .widget_shopping_cart a.checkout:hover, 
+.dt_footer .widget_shopping_cart a.checkout:focus {
+        background-color: var(--dt-main-color) !important;
+}
+
+.dt_footer .widget_shopping_cart span.amount {
+    color: #fff;
+}
+
+.dt_footer .widget_shopping_cart li img {
+   object-fit: contain !important;
+   padding-right: 10px;
+}
+
+.dt_footer .widget  .wc-block-mini-cart__badge {
+    color: #222222;
+}
+
+.dt_footer .widget .wc-block-cart-link {
+    color:#fff;
+    background: var(--dt-main-color);
+}
+
+.dt_footer .widget .wc-block-cart-link:hover, 
+.dt_footer .widget .wc-block-cart-link:focus {
+    text-decoration: none;
+}
+
+.woocommerce-account .woocommerce-Address-title h2 {
+    font-size: 4rem;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    border-color: inherit;
+    background: transparent
+}
+
+.wp-block-categories-list.has-background {
+    padding: 1rem;
+}
+
+.wp-block-latest-comments.has-background {
+    padding: 1rem;
+}
+
+.wp-block-file a {
+    text-decoration: none;
+}
+
+.wp-block-file.has-background {
+    padding: 1rem;
+}
+
+.woocommerce .summary .product_meta>span a {
+    text-decoration: none;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__header th {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.wc-block-components-sidebar-layout.wc-block-cart .wc-block-cart__totals-title {
+    font-weight: 700;
+}
+
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__label, 
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__value {
+    font-weight: 600;
+}
+
+.wp-block-woocommerce-customer-account.has-background {
+    padding: 1rem;
+}
+
+.wp-block-woocommerce-customer-account a:focus {
+    text-decoration: underline !important;
+}
+
+.wc-block-customer-account__link {
+    text-decoration: none;
+}
+
+.dt_footer .widget.widget_products ins .woocommerce-Price-amount.amount {
+    color:#fff;
+}
+
+.woocommerce ul.products li.product a:focus .woocommerce-loop-product__title {
+    color: var(--dt-main-color);
+}
+
+.wp-block-list li a:not(:hover):not(:focus) {
+    text-decoration: none;
+}
+
+.wp-block-search.wp-block-search__button-only .wp-block-search__button {
+    background-color: var(--dt-main-color);
+}
+
+.wp-block-accordion-heading.has-background .wp-block-accordion-heading__toggle {
+    padding: 1rem;
+}
+
+.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title {
+    text-decoration: none;
+}
+
+.wp-block-breadcrumbs li a {
+    text-decoration: none;
+}
